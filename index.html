@@ -45,11 +45,26 @@ body{
 }
 
 .logo{
+    margin-bottom:10px;
+}
+
+.logo img{
+    width:180px;
+    max-width:80%;
+    height:auto;
+
+    filter:
+    drop-shadow(0 0 10px rgba(255,255,255,0.25))
+    drop-shadow(0 0 20px rgba(212,175,55,0.25));
+}
+
+.brand{
     font-size:14px;
     letter-spacing:4px;
     text-transform:uppercase;
     color:#f3d79a;
     margin-bottom:20px;
+}
 }
 
 .line{
@@ -172,7 +187,13 @@ setTimeout(function(){
 <div class="overlay">
     <div class="card fade">
 
-        <div class="logo">NALURI FOTOGRAFI</div>
+        <div class="logo">
+    <img src="logo.png" alt="Logo Naluri">
+</div>
+
+<div class="brand">
+    NALURI FOTOGRAFI
+</div>
 
         <div class="line"></div>
 
