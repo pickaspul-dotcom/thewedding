@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri Pernikahan</title>
+
+<!-- Font Elegan -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+    height:100vh;
+    overflow:hidden;
+}
+
+.background{
+    position:fixed;
+    inset:0;
+    background:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url('background.jpg') center center/cover no-repeat;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.card{
+    max-width:700px;
+    color:white;
+}
+
+.logo{
+    font-size:14px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    color:#f3d79a;
+    margin-bottom:20px;
+}
+
+.line{
+    width:80px;
+    height:1px;
+    background:#f3d79a;
+    margin:0 auto 25px;
+}
+
+.subtitle{
+    letter-spacing:3px;
+    font-size:14px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.names{
+    font-family:'Cormorant Garamond', serif;
+    font-size:64px;
+    line-height:1.1;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.date{
+    color:#f3d79a;
+    margin-bottom:40px;
+    letter-spacing:2px;
+}
+
+.message{
+    font-size:15px;
+    margin-bottom:20px;
+    opacity:.9;
+}
+
+.progress-container{
+    width:100%;
+    max-width:400px;
+    margin:auto;
+}
+
+.progress{
+    height:8px;
+    background:rgba(255,255,255,.2);
+    border-radius:50px;
+    overflow:hidden;
+}
+
+.bar{
+    height:100%;
+    width:0%;
+    background:linear-gradient(90deg,#d4af37,#f6e3b4,#d4af37);
+    animation:loading 4s linear forwards;
+}
+
+@keyframes loading{
+    from{
+        width:0%;
+    }
+    to{
+        width:100%;
+    }
+}
+
+.loading-text{
+    margin-top:12px;
+    font-size:13px;
+    letter-spacing:2px;
+    color:#f3d79a;
+}
+
+.footer{
+    margin-top:40px;
+    font-size:12px;
+    letter-spacing:2px;
+    opacity:.8;
+}
+
+.fade{
+    animation:fadeIn 2s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@media(max-width:768px){
+
+.names{
+    font-size:42px;
+}
+
+.card{
+    padding:20px;
+}
+
+}
+</style>
+
+<script>
+setTimeout(function(){
+    window.location.href = https://drive.google.com/drive/folders/10M8cScP1pe4ab2lFBaoOWYHMYL2yCLUg?usp=drive_link;
+}, 4000);
+</script>
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="overlay">
+    <div class="card fade">
+
+        <div class="logo">NALURI FOTOGRAFI</div>
+
+        <div class="line"></div>
+
+        <div class="subtitle">Wedding Gallery</div>
+
+        <div class="names">
+            Rina <br>
+            & <br>
+            Fajar
+        </div>
+
+        <div class="date">
+            14 Juni 2026
+        </div>
+
+        <div class="message">
+            Terima kasih telah menjadi bagian dari hari bahagia kami.
+            Galeri foto sedang dipersiapkan untuk Anda.
+        </div>
+
+        <div class="progress-container">
+            <div class="progress">
+                <div class="bar"></div>
+            </div>
+
+            <div class="loading-text">
+                MEMBUKA GALERI...
+            </div>
+        </div>
+
+        <div class="footer">
+            Powered by Naluri Fotografi
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
